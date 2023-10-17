@@ -32,3 +32,5 @@
 - join() 메소드는 CompletableFuter 와 함께 등장한 메소드로, 비동기 처리에 대한 결과를 가져오는 get() 과 근본적인 기능은 동일하지만 get() 과 다르게 비동기 작업 중 발생한 예외를 unChecked Exception 으로 처리한다. 따라서 예외가 발생하여도 해당 스레드가 인터럽트 되지 않으며 try-catch 블록으로 감싸지 않고도 사용할 수 있다.
 
 **결론: CompletableFuter 를 사용하는 경우 join() 을 사용하자.**
+
+reference : https://brunch.co.kr/@springboot/267
